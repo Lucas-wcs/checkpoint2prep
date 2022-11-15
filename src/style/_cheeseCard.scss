@@ -1,0 +1,21 @@
+.cheese-card {
+    width : 300px;
+    border : 1px black solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+
+
+    .image-container {
+        width: 300px;
+        height: 200px;
+        padding: 5px;
+        margin-bottom: 20px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
